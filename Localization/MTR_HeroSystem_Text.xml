@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MTR_HeroSystem_Text -->
+<!-- Author: Angelo -->
+<!-- DateCreated: 2020-08-15 11:14:21 -->
+<GameData>
+	<LocalizedText>
+		<!--HERO SYSTEM ABILITIES-->
+		
+		<!--======MELEE=======-->
+		<!--+1-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_1_NAME"						Text="Hero Scaling (+1)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_1_DESCRIPTION"					Text="Hero Scaling (+1)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_1_DESCRIPTION"		Text="Hero Scaling (+1)"/>
+
+		<!--+2-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_2_NAME"						Text="Hero Scaling (+2)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_2_DESCRIPTION"					Text="Hero Scaling (+2)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_2_DESCRIPTION"		Text="Hero Scaling (+2)"/>
+
+		<!--+4-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_4_NAME"						Text="Hero Scaling (+4)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_4_DESCRIPTION"					Text="Hero Scaling (+4)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_4_DESCRIPTION"		Text="Hero Scaling (+4)"/>
+
+		<!--+8-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_8_NAME"						Text="Hero Scaling (+8)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_8_DESCRIPTION"					Text="Hero Scaling (+8)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_8_DESCRIPTION"		Text="Hero Scaling (+8)"/>
+
+		<!--+16-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_16_NAME"						Text="Hero Scaling (+16)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_16_DESCRIPTION"				Text="Hero Scaling (+16)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_16_DESCRIPTION"		Text="Hero Scaling (+16)"/>
+
+		<!--+32-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_32_NAME"						Text="Hero Scaling (+32)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_32_DESCRIPTION"				Text="Hero Scaling (+32)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_32_DESCRIPTION"		Text="Hero Scaling (+32)"/>
+
+		<!--+64-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_64_NAME"						Text="Hero Scaling (+64)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_64_DESCRIPTION"				Text="Hero Scaling (+64)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_64_DESCRIPTION"		Text="Hero Scaling (+64)"/>
+
+		<!--+128-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_128_NAME"						Text="Hero Scaling (+128)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_128_DESCRIPTION"				Text="Hero Scaling (+128)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_128_DESCRIPTION"		Text="Hero Scaling (+128)"/>
+
+		
+		<!--======RANGED=======-->
+		<!--+1-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_1_NAME"						Text="Ranged Hero Scaling (+1)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_1_DESCRIPTION"				Text="Ranged Hero Scaling (+1)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_1_DESCRIPTION"		Text="Ranged Hero Scaling (+1)"/>
+
+		<!--+2-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_2_NAME"						Text="Ranged Hero Scaling (+2)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_2_DESCRIPTION"				Text="Ranged Hero Scaling (+2)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_2_DESCRIPTION"		Text="Ranged Hero Scaling (+2)"/>
+
+		<!--+4-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_4_NAME"						Text="Ranged Hero Scaling (+4)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_4_DESCRIPTION"				Text="Ranged Hero Scaling (+4)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_4_DESCRIPTION"		Text="Ranged Hero Scaling (+4)"/>
+
+		<!--+8-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_8_NAME"						Text="Ranged Hero Scaling (+8)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_8_DESCRIPTION"				Text="Ranged Hero Scaling (+8)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_8_DESCRIPTION"		Text="Ranged Hero Scaling (+8)"/>
+
+		<!--+16-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_16_NAME"					Text="Ranged Hero Scaling (+16)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_16_DESCRIPTION"				Text="Ranged Hero Scaling (+16)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_16_DESCRIPTION"	Text="Ranged Hero Scaling (+16)"/>
+
+		<!--+32-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_32_NAME"					Text="Ranged Hero Scaling (+32)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_32_DESCRIPTION"				Text="Ranged Hero Scaling (+32)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_32_DESCRIPTION"	Text="Ranged Hero Scaling (+32)"/>
+
+		<!--+64-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_64_NAME"					Text="Ranged Hero Scaling (+64)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_64_DESCRIPTION"				Text="Ranged Hero Scaling (+64)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_64_DESCRIPTION"	Text="Ranged Hero Scaling (+64)"/>
+
+		<!--+128-->
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_128_NAME"					Text="Ranged Hero Scaling (+128)"/>
+		<Row Language="en_US"	Tag="LOC_ABILITY_MTR_HEROSCALING_RANGED_128_DESCRIPTION"			Text="Ranged Hero Scaling (+128)"/>
+		<Row Language="en_US"	Tag="LOC_MODIFIER_ABILITY_MTR_HEROSCALING_RANGED_128_DESCRIPTION"	Text="Ranged Hero Scaling (+128)"/>
+	</LocalizedText>
+</GameData>

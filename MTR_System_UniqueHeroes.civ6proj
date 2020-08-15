@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Unique Hero System</Name>
+    <Guid>b5051991-f361-4ba5-8a96-2f2cfa178dfa</Guid>
+    <ProjectGuid>f28248ba-2455-4da0-970b-7dac4c83c116</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This mod enables modders to create "Unique Heroes" (UH) which scale as the game progresses. 
+
+The concept is to allow the lea</Teaser>
+    <Description>This mod enables modders to create "Unique Heroes" (UH) which scale as the game progresses. 
+
+The concept is to allow the leader themselves to be a unit that is present throughout the game as more of a supportive role (Psuedo-Great General or whatever else you wish)
+
+All the Modder has to do is associate the tag "CLASS_HERO" with the unit and ensure that there is a *Unique* Building associated with it so that the unit is only able to be trained if that building is present.
+
+The lua scripts handle the UH and UB in a way that enables you to train another copy of the UH should it die and also ensures that no more than one copy of a specfic UH can be owned by a player
+The scripts also handle "scaling" with era. It is automatically calculated based on the initial combat strength and ranged combat strength in the database. It scales by 35% per era and is aimed to keep the UH usable, but slightly weaker than the units of that era.</Description>
+    <Authors>Martyr</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>MTR_System_UniqueHeroes</AssemblyName>
+    <RootNamespace>MTR_System_UniqueHeroes</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MTR_HeroSystem_UpdateDatabase"><File>Abilities/MTR_HeroSystem_Abilities.xml</File></UpdateDatabase><UpdateText id="MTR_HeroSystem_UpdateText"><File>Localization/MTR_HeroSystem_Text.xml</File></UpdateText><AddGameplayScripts id="MTR_HeroSystem_AddGameplayScripts"><File>Scripts/MTR_HeroSystem_HandlerScript.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="MTR_System_UniqueHeroes.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abilities" />
+    <Folder Include="Localization" />
+    <Folder Include="Scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Abilities\MTR_HeroSystem_Abilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\MTR_HeroSystem_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\MTR_HeroSystem_HandlerScript.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
