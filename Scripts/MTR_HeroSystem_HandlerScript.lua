@@ -254,8 +254,8 @@ function MTR_UHSystem_GrantUnitRangedBonus(pUnit, iBonus)
 	end
 end
 
-function MTR_UHSystem_ProcessAbilties(pUnit)
-	--print("MTR_UHSystem_ProcessAbilties()");
+function MTR_UHSystem_ProcessAbilities(pUnit)
+	--print("MTR_UHSystem_ProcessAbilities()");
 	
 	local iEra = Game.GetEras():GetCurrentEra(); --Returns the era the game currently is in (i.e. 0 for ancient) THIS STARTS AT '0' UNLIKE IPAIRS WHICH AS FAR AS I CAN SEE STARTS AT '1'
 	--print("Era " ..iEra);
@@ -314,7 +314,7 @@ function MTR_HeroSystem_UnitAddedToMap(iPlayerID, iUnitID)
 	--print("HERO TRAINED: " .. sUnitType);
 	
 	MTR_HeroSystem_DestroyBuildingInCapital(pPlayer, sUnitType);
-	MTR_UHSystem_ProcessAbilties(pUnit); --The Unit spawns with all abilities enabled so it has +255 strength the moment it spawns, this runs the process to properly scale it the second its created.
+	MTR_UHSystem_ProcessAbilities(pUnit); --The Unit spawns with all abilities enabled so it has +255 strength the moment it spawns, this runs the process to properly scale it the second its created.
 end	
 
 --====================================================================
@@ -363,7 +363,7 @@ function MTR_HeroSystem_UnitMoved(iPlayerID, iUnitID, iX, iY, locallyVisible, st
 	if (tValidUnitList[sType] == nil) then return end --abort if not valid UnitType
 	--print("Valid unit!");
 	
-	MTR_UHSystem_ProcessAbilties(pUnit);
+	MTR_UHSystem_ProcessAbilities(pUnit);
 end
 	
 	
@@ -372,7 +372,7 @@ end
 --====================================================================
 --Inputting Functions into the Game Events 
 --====================================================================
-Events.UnitRemovedFromMap.Add(MTR_HeroSystem_UnitRemovedFromMap)
+--Events.UnitRemovedFromMap.Add(MTR_HeroSystem_UnitRemovedFromMap) --Removed due to errors clogging lua log, also unneeded as currently the script checks at the beginning of a turn anyway for if a Hero is dead
 Events.UnitAddedToMap.Add(MTR_HeroSystem_UnitAddedToMap)
 
 Events.UnitMoved.Add(MTR_HeroSystem_UnitMoved);
